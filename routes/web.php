@@ -77,15 +77,15 @@ Route::delete('/livros/{livro}', [LivroController::class, 'destroy'])->name('liv
 Route::get('autores/{autore}/edit', [AutorController::class, 'edit'])->name('autores.edit');
 //Route::get('/autores/{autor}/edit', [AutorController::class,'edit'])->name('autores.edit');
 Route::put('/autores/{autor}', [AutorController::class, 'update'])->name('autores.update');*/
-/*
-Route::get('/autores', [AutorController::class, 'index'])->name('assuntos.index');
-Route::get('/autores/create', [AutorController::class, 'create'])->name('assuntos.create');
+
+Route::get('/autores', [AutorController::class, 'index'])->name('autores.index');
+Route::get('/autores/create', [AutorController::class, 'create'])->name('autores.create');
 Route::post('/autores', [AutorController::class, 'store'])->name('autores.store');
 Route::get('/autores/{autor}', [AutorController::class, 'show'])->name('autores.show');
 Route::get('/autores/{autor}/edit', [AutorController::class,'edit'])->name('autores.edit');
 Route::put('/autores/{autor}', [AutorController::class, 'update'])->name('autores.update');
 Route::delete('/autores/{autor}', [AutorController::class, 'destroy'])->name('autores.destroy');
-*/
+
 // Rotas para assuntos
 
 /*
