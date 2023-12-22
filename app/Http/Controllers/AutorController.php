@@ -38,6 +38,7 @@ class AutorController extends Controller
 
     public function show(Autor $autore)
     {
+        $autor = $autore;
 
         return view('autores.show', compact('autor'));
     }
