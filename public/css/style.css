@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+}
+h1 {
+    color:#ccc;
+    text-shadow: 2px 2px #000;
+    text-align: center;
+    letter-spacing: 10px;
+    text-decoration: underline;
+}
+.msg{
+    color:red;
+    border:2px solid black;
+    width: 250px;
+    text-align: center;
+}
+.tamButtom{
+    width: 200px;
+}
+.tamButtomOpt{
+    width: 80px;
+}
